@@ -1,0 +1,164 @@
+/*font-family: 'Baloo Tammudu', cursive;
+font-family: 'Acme', sans-serif;*/
+
+
+
+
+.slider{
+	background: url(../images/background.jpg) center no-repeat;
+	background-size: cover;
+}
+.carousel-item img {
+	height: 400px;
+}
+.custom-ind li{
+	width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.custom-pre-nxt{
+	transition: 0.5s;
+
+}
+.custom-pre-nxt:hover{
+	background: #F9245E;
+	height: 40px;
+	width: 40px;
+}
+.color{
+	color: #ffffff;
+	z-index: 1000;
+}
+
+.subject{
+	background: #E36FD1;
+	padding: 20px 0;
+}
+.subject-list, .subject-details{
+	background: #ffffff;
+	padding: 80px 0;
+	border: 4px solid #dddddd;
+	border-radius: 10px;
+	transition: .6s;
+}
+.subject-list:hover {
+    box-shadow: 0px 0px 10px 4px #555555;
+}
+.subject-details:hover{
+    box-shadow: 0px 0px 10px 4px #555555;
+}
+.subject-list a{
+	font-family: 'Acme', sans-serif;
+    display: block;
+    background: #008080;
+    width: 70%;
+    margin: 25px auto;
+    padding: 8px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: .6s;
+}
+.subject-list a:hover{
+    background: #ff3000;
+    box-shadow: 4px 5px 0px 0px #aaaaaa;
+    transform: rotateX(30deg);
+}
+.subject-list a:hover .badge-custom {
+    background: #008080;
+}
+.subject-list a:nth-child(odd) {
+	border-radius: 0px 0px 35px 35px;
+}
+.subject-list a:nth-child(even) {
+	border-radius: 35px 35px 0px 0px;
+}
+.sub-title{
+	font-family: 'Baloo Tammudu', cursive;
+    background: #ff3000;
+    color: #FFE5C6;
+    padding: 22px 0 10px 0px;
+    width: 70%;
+    margin: auto;
+    border-radius: 0px 0px 35px 35px;
+    box-shadow: 4px 5px 0px 0px #dddddd;
+    transition: .5s;
+}
+.sub-title:hover{
+    box-shadow: 6px 7px 0px 0px #aaaaaa;
+    transform: rotateY(15deg);	
+}
+.badge-custom{
+	background: #ff3000;
+	font-size: 20px;
+	padding: 8px 15px;
+	margin-top: 8px; transition: .6s;
+}
+footer{
+	background: #DBAC33;
+	padding: 25px 0;
+	border-top: 3px solid #dddddd;
+}
+.footer-contant span{
+	font-family: 'Baloo Tammudu', cursive;
+	color: #ffffff;
+}
+.color-2{
+	color: #FF2C2B !important;
+}
+
+
+
+
+
+
+
+/*java*/
+.banner{
+	background: url(../images/background.jpg) center no-repeat;
+	background-size: cover;
+}
+.banner-img img{
+	width: 100%;
+	height: 300px;
+}
+.home-button a{
+	font-family: 'Baloo Tammudu', cursive;
+	font-size: 30px;
+	text-decoration: none;
+    background: #aaaaaa;
+    color: #00801F;
+    padding: 22px 0 10px 0px;
+    width: 70%;
+    display: block;
+    text-align: center;
+    margin: auto;
+    border-radius: 0px 0px 35px 35px;
+    box-shadow: 3px 4px 0px 0px #dddddd;
+    transition: .5s;
+}
+.home-button a:hover{
+	background: #FF4500;
+	color: #ffffff;
+	box-shadow: 2px 3px 0px 0px #aaaaaa;
+}
+.subject-details h1 {
+    font-family: 'Acme', sans-serif;
+    font-size: 45px;
+    color: #2DAF5A;
+}
+.subject-details hr {
+    border: none;
+    border-top: 4px solid #2DAF5A;
+    width: 500px;
+
+}
+.subject-details p {
+    font-size: 18px;
+    color: #6E808F;
+    margin-bottom: 40px;
+}
+.subject-details h2{
+    color: #ff0000;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
